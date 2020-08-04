@@ -110,7 +110,6 @@ while(True):
             currentTurtle.right(currentTurn)
         sayingCounter += 1
         currentTurtle.speed(6)
-    print(sayingCounter)
     if sayingCounter == 10:
         createBox()
 
